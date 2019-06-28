@@ -14,3 +14,7 @@
 .jp-carousel-buttons, .jp-carousel-light .jp-carousel-image-meta {
     display: none !important;
 }
+
+.jp-carousel-info {
+    display: none;
+}
