@@ -28,7 +28,7 @@ global $twentyseventeencounter;
 
 	<?php endif; ?>
 
-	<div class="panel-content">
+	<div class="panel-content" id="<?php echo get_post()->post_name; ?>">
 		<div class="wrap">
 			<header class="entry-header">
 				
