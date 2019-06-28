@@ -24,4 +24,14 @@ function childtheme_theme_menu_class($atts, $item, $args) {
 }
 add_filter('nav_menu_link_attributes','childtheme_theme_menu_class', 0,3);
 
+
+function tweakjp_rm_comments_att( $open, $post_id ) {
+    $post = get_post( $post_id );
+    if( $post->post_type == 'attachment' ) {
+        return false;
+    }
+    return $open;
+}
+add_filter( 'comments_open', 'tweakjp_rm_comments_att', 10 , 2 );
+
 ?>
