@@ -10,3 +10,7 @@
 .entry-header .custom-logo-link {
 /* 	padding-top: 60px; */
 }
+
+.jp-carousel-buttons, .jp-carousel-light .jp-carousel-image-meta {
+    display: none !important;
+}
