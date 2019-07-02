@@ -18,3 +18,21 @@
 .jp-carousel-info {
     display: none;
 }
+
+.menu-toggle {
+	width:100%;
+	text-align: right;
+}
+
+.has-header-image.twentyseventeen-front-page .custom-header {
+	
+	height: 225px;
+}
+
+.has-header-image .custom-header-media img {
+	height: auto;
+	width: auto;
+	max-width: none;
+	min-height: 0;
+	
+}
