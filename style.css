@@ -4,7 +4,7 @@
  Author: David Griffin
  Author URI: digidolmedia.com
  Template: twentyseventeen
- Version: 3
+ Version: 4
  */
  
 .entry-header .custom-logo-link {
@@ -45,7 +45,7 @@
 .has-header-video.home.blog .custom-header {
 	display: table;
 	height: 300px;
-	height: 75vh;
+	height: 75vh;	
 	width: 100%;
 }
 	
@@ -55,8 +55,8 @@
 	position: fixed;
 	height: auto;
 	left: 50%;
-	max-width: 1000%;
-	min-height: 100%;
+	max-width: 1000% !important;
+	min-height: 100% !important;
 	min-width: 100%;
 	min-width: 100vw; /* vw prevents 1px gap on left that 100% has */
 	width: auto;
