@@ -4,12 +4,17 @@
  Author: David Griffin
  Author URI: digidolmedia.com
  Template: twentyseventeen
- Version: 4
+ Version: 5
  */
  
 .entry-header .custom-logo-link {
 /* 	padding-top: 60px; */
 }
+
+.sub-panel .custom-logo-link img {
+	position: absolute;
+    clip: rect(40px,143px,136px,0px);
+    }
 
 .jp-carousel-buttons, .jp-carousel-light .jp-carousel-image-meta {
     display: none !important;

@@ -28,9 +28,9 @@ global $twentyseventeencounter;
 
 	<?php endif; ?>
 
-	<div class="panel-content" id="<?php echo get_post()->post_name; ?>">
+	<div class="panel-content sub-panel" id="<?php echo get_post()->post_name; ?>">
 		<div class="wrap">
-			<header class="entry-header">
+			<header class="entry-header panel-logo">
 				
 
 				<?php twentyseventeen_edit_link( get_the_ID() ); ?>
