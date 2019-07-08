@@ -16,6 +16,10 @@
 	height: 175px;
 }
 
+.welcome {
+	padding-bottom: 30px;
+}
+
 .sub-panel .custom-logo-link img {
 	position: absolute;
     clip: rect(26px,143px,99px,0px);

@@ -27,7 +27,7 @@
 
 	<div class="panel-content">
 		<div class="wrap">
-			<header class="entry-header">
+			<header class="entry-header welcome">
 				
 				<?php the_custom_logo(); ?>
 
