@@ -4,12 +4,13 @@
  Author: David Griffin
  Author URI: digidolmedia.com
  Template: twentyseventeen
- Version: 10
+ Version: 11
  */
  
  .page .panel-content .entry-title {
 	 font-weight: 200;
 	 font-size: 1.875rem;
+	 padding-bottom: 30px;
  }
  
 .entry-header .custom-logo-link {
