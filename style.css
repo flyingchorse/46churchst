@@ -4,7 +4,7 @@
  Author: David Griffin
  Author URI: digidolmedia.com
  Template: twentyseventeen
- Version: 14
+ Version: 15
  */
  
  .page .panel-content .entry-title {
@@ -65,7 +65,7 @@ b, strong {
 }
 
 .wp-block-jetpack-contact-info {
-	font-size: 2.0rem;
+	font-size: 1.4rem;
 }
 
 @media screen and (min-width: 40em) {
