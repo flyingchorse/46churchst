@@ -4,7 +4,7 @@
  Author: David Griffin
  Author URI: digidolmedia.com
  Template: twentyseventeen
- Version: 16
+ Version: 17
  */
  
  .page .panel-content .entry-title {
@@ -53,14 +53,14 @@ b, strong {
 }
 .has-header-image.twentyseventeen-front-page .custom-header {
 	
-	height: 185px;
+	height: 375px;
 }
 
 .has-header-image .custom-header-media img {
 	height: auto;
-	width: auto;
+/* 	width: auto; */
 	max-width: none;
-	min-height: 0;
+/* 	min-height: 0; */
 	
 }
 
