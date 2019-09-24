@@ -4,15 +4,16 @@
  Author: David Griffin
  Author URI: digidolmedia.com
  Template: twentyseventeen
- Version: 17.05
+ Version: 17.10
  */
 
- .page  .entry-title {
+ .page .entry-title {
 	 display: none;
 	 font-weight: 200;
 	 font-size: 1.875rem;
 	 padding-bottom: 30px;
  }
+ 
   .page .sub-panel .entry-title {
 	  display: inherit;
 	 font-weight: 200;
