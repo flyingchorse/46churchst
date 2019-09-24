@@ -4,14 +4,22 @@
  Author: David Griffin
  Author URI: digidolmedia.com
  Template: twentyseventeen
- Version: 17.00
+ Version: 17.01
  */
- 
+
  .page .panel-content .entry-title {
+	 display: none;
 	 font-weight: 200;
 	 font-size: 1.875rem;
 	 padding-bottom: 30px;
  }
+  .page .panel-content .sub-panel .entry-title {
+	  display: inline;
+	 font-weight: 200;
+	 font-size: 1.875rem;
+	 padding-bottom: 30px;
+ }
+ 
 b, strong { 
 	 font-weight: 600;
  }
@@ -69,6 +77,8 @@ b, strong {
 }
 
 @media screen and (min-width: 40em) {
+	
+
 	
 	
 	.has-header-image.twentyseventeen-front-page .custom-header,
