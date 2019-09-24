@@ -4,7 +4,7 @@
  Author: David Griffin
  Author URI: digidolmedia.com
  Template: twentyseventeen
- Version: 17.01
+ Version: 17.02
  */
 
  .page .panel-content .entry-title {
@@ -13,8 +13,8 @@
 	 font-size: 1.875rem;
 	 padding-bottom: 30px;
  }
-  .page .panel-content .sub-panel .entry-title {
-	  display: inline;
+ .sub-panel .entry-title {
+	  display: inherit;
 	 font-weight: 200;
 	 font-size: 1.875rem;
 	 padding-bottom: 30px;
