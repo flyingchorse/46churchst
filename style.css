@@ -21,6 +21,7 @@
  
  .welcome-quote {
 	 margin: 0;
+	 margin-bottom: 8rem;
  }
  
 b, strong { 
@@ -84,7 +85,7 @@ b, strong {
 	
 
 .admin-bar.twentyseventeen-front-page.has-header-image .custom-header-media, .admin-bar.twentyseventeen-front-page.has-header-video .custom-header-media, .admin-bar.home.blog.has-header-image .custom-header-media, .admin-bar.home.blog.has-header-video .custom-header-media {
-	height: calc(100vh - 205px);
+	height: 70vh;
 }	 
 	
 	.has-header-image.twentyseventeen-front-page .custom-header,
@@ -93,7 +94,7 @@ b, strong {
 .has-header-video.home.blog .custom-header {
 	display: table;
 	height: 300px;
-	height: 75vh;	
+	height: 70vh;	
 	width: 100%;
 }
 	
@@ -124,12 +125,12 @@ b, strong {
 @media screen and (min-width: 48em) {
 	
 	admin-bar.twentyseventeen-front-page.has-header-image .custom-header-media, .admin-bar.twentyseventeen-front-page.has-header-video .custom-header-media, .admin-bar.home.blog.has-header-image .custom-header-media, .admin-bar.home.blog.has-header-video .custom-header-media {
-	height: 80vh;
+	height: 70vh;
 }
 
 .twentyseventeen-front-page.has-header-image .custom-header-media, .twentyseventeen-front-page.has-header-video .custom-header-media, .home.blog.has-header-image .custom-header-media, .home.blog.has-header-video .custom-header-media {
 	
-	height: 80vh;
+	height: 70vh;
 }
 
 .has-header-image.twentyseventeen-front-page .custom-header,
@@ -138,7 +139,7 @@ b, strong {
 .has-header-video.home.blog .custom-header {
 	display: table;
 	height: 300px;
-	height: 80vh;	
+	height: 70vh;	
 	width: 100%;
 }
 
