@@ -6,7 +6,9 @@
  Template: twentyseventeen
  Version: 17.18
  */
-
+ .site-content-contain {
+	 background-color: #fffded;
+ }
  .page .entry-title {
 	 display: none;
 
