@@ -6,7 +6,7 @@
  Template: twentyseventeen
  Version: 17.19
  */
- .site-content-contain, .main-navigation ul, .main-navigation {
+ .site-content-contain, .main-navigation ul, .main-navigation, .navigation-top {
 	 background-color: #fffef4;
  }
 
