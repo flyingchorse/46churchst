@@ -6,9 +6,11 @@
  Template: twentyseventeen
  Version: 17.19
  */
- .site-content-contain {
-	 /* background-color: #fffef4; */
+ .site-content-contain, .main-navigation ul, .main-navigation {
+	 background-color: #fffef4;
  }
+
+ 
  .page .entry-title {
 	 display: none;
 
