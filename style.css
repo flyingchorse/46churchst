@@ -39,6 +39,7 @@ b, strong {
 
 .entry-header.panel-logo {
 	height: 175px;
+	margin-top: -37px;
 }
 
 .welcome {
