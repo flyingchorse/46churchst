@@ -17,6 +17,14 @@
  blockquote cite {
 	 font-weight: 400;
  }
+
+ jp-carousel-slide {
+	 display: none;
+ }
+
+ .jp-carousel-slide .selected {
+	 display: block;
+ }
  
   .page .sub-panel .entry-title {
 	  display: inherit;
