@@ -19,9 +19,12 @@
  }
 
  .jp-carousel-slide {
-	 opacity: 0 !important;
+	 display: none;
  }
 
+ .jp-carousel-slide .selected {
+	 display: block;
+ }
  
   .page .sub-panel .entry-title {
 	  display: inherit;
