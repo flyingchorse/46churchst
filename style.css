@@ -13,6 +13,10 @@
 
 	 padding-bottom: 30px;
  }
+
+ blockquote cite {
+	 font-weight: 400;
+ }
  
   .page .sub-panel .entry-title {
 	  display: inherit;
