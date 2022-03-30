@@ -34,6 +34,6 @@ function tweakjp_rm_comments_att( $open, $post_id ) {
 }
 add_filter( 'comments_open', 'tweakjp_rm_comments_att', 10 , 2 );
 
-add_filter( 'twentyseventeen_front_page_sections', function(){ return 8; } );
+add_filter( 'twentyseventeen_front_page_sections', function(){ return 9; } );
 
 ?>
