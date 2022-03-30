@@ -14,8 +14,32 @@
 	 padding-bottom: 30px;
  }
 
+ .main-navigation {
+	 font-family: Helvetica;
+	 text-transform: uppercase;
+	 letter-spacing: -0.05em;
+ }
+.intro-text{
+	padding-top: 0;
+}
+ blockquote {
+	 color: black;
+ }
+
  blockquote cite {
 	 font-weight: 400;
+ }
+
+blockquote:before {
+	content: "\201C";
+    font-size: 200px;
+    padding: 0px;
+    margin-left: -86px;
+    line-height: 101px;
+    position: absolute;
+    z-index: 100;
+    font-family: helvetica neue;
+    font-style: normal;
  }
 
  .jp-carousel-slide {
@@ -58,13 +82,13 @@ b, strong {
 
 .custom-logo-link img {
 	
-    height: 136px;
+    height: 200px;
     }
 
 .sub-panel .custom-logo-link img {
 	position: absolute;
-    clip: rect(26px,143px,99px,0px);
-    height: 136px;
+    clip: rect(10px,143px,160px,0px);
+    height: 200px;
     }
 
 .jp-carousel-buttons, .jp-carousel-light .jp-carousel-image-meta {
