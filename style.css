@@ -34,7 +34,8 @@ blockquote:before {
 	content: "\201C";
     font-size: 200px;
     padding: 0px;
-    margin-left: -86px;
+    margin-left: -11px;
+	margin-top: -55px;
     line-height: 101px;
     position: absolute;
     z-index: 100;
@@ -122,6 +123,18 @@ b, strong {
 }
 
 @media screen and (min-width: 40em) {
+
+	blockquote:before {
+		content: "\201C";
+		font-size: 200px;
+		padding: 0px;
+		margin-left: -86px;
+		line-height: 101px;
+		position: absolute;
+		z-index: 100;
+		font-family: helvetica neue;
+		font-style: normal;
+	 }
 	
 
 .admin-bar.twentyseventeen-front-page.has-header-image .custom-header-media, .admin-bar.twentyseventeen-front-page.has-header-video .custom-header-media, .admin-bar.home.blog.has-header-image .custom-header-media, .admin-bar.home.blog.has-header-video .custom-header-media {
