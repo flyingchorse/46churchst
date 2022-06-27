@@ -105,13 +105,14 @@ b, strong {
 }
 .has-header-image.twentyseventeen-front-page .custom-header {
 	
-	height: 375px;
+	height: 250px;
 }
 
 .has-header-image .custom-header-media img {
 	height: auto;
 /* 	width: auto; */
-	max-width: none;
+	max-width: unset;
+	min-height: unset;
 /* 	min-height: 0; */
 	
 }
@@ -187,6 +188,7 @@ b, strong {
 	height: 70vh;	
 	width: 100%;
 }
+
 
 	
 	}
