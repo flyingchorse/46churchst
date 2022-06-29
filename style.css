@@ -4,7 +4,7 @@
  Author: David Griffin
  Author URI: digidolmedia.com
  Template: twentyseventeen
- Version: 17.23
+ Version: 17.24
  */
  
 
@@ -53,8 +53,8 @@ blockquote:before {
  
   .page .sub-panel .entry-title {
 	  display: inherit;
-
-	 padding-bottom: 100px;
+		padding-top: 50px;
+	 padding-bottom: 50px;
  }
  
  .welcome-quote {
@@ -123,6 +123,12 @@ b, strong {
 }
 
 @media screen and (min-width: 40em) {
+
+	.page .sub-panel .entry-title {
+		display: inherit;
+		  padding-top: unset;
+	   padding-bottom: 100px;
+   }
 
 	blockquote:before {
 		content: "\201C";
