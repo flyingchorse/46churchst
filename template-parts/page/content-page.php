@@ -17,7 +17,8 @@
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 		<?php twentyseventeen_edit_link( get_the_ID() ); ?>
 	</header><!-- .entry-header -->
-	<div class="entry-content">
+	<?php $noofcols = get_field('columns'); ?>
+	<div class="entry-content  <?php echo $noofcols; ?>">
 		<?php
 			the_content();
 

@@ -30,15 +30,19 @@ global $twentyseventeencounter;
 
 	<div class="panel-content sub-panel" id="<?php echo get_post()->post_name; ?>">
 		<div class="wrap">
+		<?php	
+			 if (get_field('hide_logo') != "logo_hide") {
+				?>
 			<header class="entry-header panel-logo">
-				
+			<?php echo $hidethelogo; ?>
 
 				<?php twentyseventeen_edit_link( get_the_ID() ); ?>
 				<?php the_custom_logo(); ?>
 
 			</header><!-- .entry-header -->
-
-			<div class="entry-content">
+<?php } ?>
+			<?php $noofcols = get_field('columns'); ?>
+			<div class="entry-content <?php echo $noofcols; ?>" >
 				<?php the_title( '<h2 class="entry-title">', '</h2>' ); ?>
 				<?php
 					/* translators: %s: Name of current post */
