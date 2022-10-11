@@ -85,13 +85,13 @@ opacity: 0.5;
 
 .custom-logo-link img {
 	
-    height: 180px;
+    /* height: 180px; */
     }
 
 .sub-panel .custom-logo-link img {
 	position: absolute;
     /* clip: rect(10px,143px,160px,0px); */
-    height: 180px;
+    /* height: 180px; */
     }
 
 .jp-carousel-buttons, .jp-carousel-light .jp-carousel-image-meta {
