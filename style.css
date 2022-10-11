@@ -90,7 +90,7 @@ opacity: 0.5;
 
 .sub-panel .custom-logo-link img {
 	position: absolute;
-    clip: rect(10px,143px,160px,0px);
+    /* clip: rect(10px,143px,160px,0px); */
     height: 180px;
     }
 
