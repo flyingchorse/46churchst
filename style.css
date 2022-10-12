@@ -86,7 +86,7 @@ opacity: 0.5;
 .custom-logo-link img {
 	
     /* height: 180px; */
-	/* max-width: 100%!important; */
+	 max-height: 100%!important; 
     }
 
 .sub-panel .custom-logo-link img {
