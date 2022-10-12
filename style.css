@@ -86,10 +86,12 @@ opacity: 0.5;
 .custom-logo-link img {
 	
     /* height: 180px; */
+	max-width: 100%!important;
     }
 
 .sub-panel .custom-logo-link img {
 	position: absolute;
+	max-width: 100%!important;
     /* clip: rect(10px,143px,160px,0px); */
     /* height: 180px; */
     }
