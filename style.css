@@ -4,7 +4,7 @@
  Author: David Griffin
  Author URI: digidolmedia.com
  Template: twentyseventeen
- Version: 17.30
+ Version: 17.35
  */
  
 
@@ -190,7 +190,7 @@ opacity: 0.5;
 	.custom-logo-link img {
 	
 		/* height: 180px; */
-		 max-height: 310px!important; 
+		 max-width: 310px!important; 
 		}
 	
 	.welcome-quote {
