@@ -4,7 +4,7 @@
  Author: David Griffin
  Author URI: digidolmedia.com
  Template: twentyseventeen
- Version: 17.46
+ Version: 17.47
  */
  
 
@@ -90,10 +90,7 @@ opacity: 0.5;
 
 }
 
-.top-review {
-padding-top: 200px!important;
 
-}
 
 .custom-logo-link img {
 	
@@ -145,7 +142,10 @@ padding-top: 200px!important;
 		  padding-top: unset;
 	   padding-bottom: 100px;
    }
-
+   .top-review {
+	padding-top: 200px!important;
+	
+	}
 	blockquote:before {
 		content: "\201C";
 		font-size: 200px;
