@@ -4,7 +4,7 @@
  Author: David Griffin
  Author URI: digidolmedia.com
  Template: twentyseventeen
- Version: 17.45
+ Version: 17.46
  */
  
 
@@ -53,11 +53,15 @@ blockquote:before {
  .jp-carousel-slide .selected {
 	 display: block;
  }
- 
+
   .page .sub-panel .entry-title {
 	  display: inherit;
 		padding-top: 50px;
 	 padding-bottom: 50px;
+ }
+
+ .sub-panel {
+	padding-top: 50px;
  }
  
  .welcome-quote {
