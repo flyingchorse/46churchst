@@ -15,16 +15,14 @@
  }
 
  .intro-text {
-	padding-top: 50px!important;
+	padding-top: 50px;
  }
  .main-navigation {
 	 font-family: Helvetica;
 	 text-transform: uppercase;
 	 letter-spacing: -0.05em;
  }
-.intro-text{
-	padding-top: 0;
-}
+
  blockquote {
 	 color: black;
  }
@@ -138,6 +136,10 @@ opacity: 0.5;
 }
 
 @media screen and (min-width: 40em) {
+
+	.intro-text{
+		padding-top: 0;
+	}
 
 	.page .sub-panel .entry-title {
 		display: inherit;
