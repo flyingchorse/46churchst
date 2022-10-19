@@ -24,6 +24,17 @@ function childtheme_theme_menu_class($atts, $item, $args) {
 }
 add_filter('nav_menu_link_attributes','childtheme_theme_menu_class', 0,3);
 
+function logo_size_change(){
+	remove_theme_support( 'custom-logo' );
+	add_theme_support( 'custom-logo', array(
+	    'height'      => 500,
+	    'width'       => 800,
+	    'flex-height' => true,
+	    'flex-width'  => true,
+	) );
+}
+add_action( 'after_setup_theme', 'logo_size_change', 11 );
+
 
 function tweakjp_rm_comments_att( $open, $post_id ) {
     $post = get_post( $post_id );
