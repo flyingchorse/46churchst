@@ -72,7 +72,7 @@ b, strong {
 	 font-weight: 600;
  }
 .entry-header .custom-logo-link {
-/* 	padding-top: 60px; */
+
 }
 
 .entry-content a:hover, a.custom-logo-link:hover   {
@@ -81,8 +81,7 @@ opacity: 0.5;
 
 
 .entry-header.panel-logo {
-	/* height: 175px; */
-	/* margin-top: -14px; */
+
 }
 
 .welcome {
