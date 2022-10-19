@@ -77,7 +77,7 @@ b, strong {
 /* 	padding-top: 60px; */
 }
 
-.entry-content a:hover, .custom-logo-link a:hover   {
+.entry-content a:hover, a.custom-logo-link:hover   {
 opacity: 0.5;
 }
 
