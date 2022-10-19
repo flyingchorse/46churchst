@@ -77,9 +77,11 @@ b, strong {
 /* 	padding-top: 60px; */
 }
 
-.entry-content a:hover  {
+.entry-content a:hover, .custom-logo-link a:hover   {
 opacity: 0.5;
 }
+
+
 .entry-header.panel-logo {
 	/* height: 175px; */
 	/* margin-top: -14px; */
