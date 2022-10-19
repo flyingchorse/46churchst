@@ -37,7 +37,7 @@ global $twentyseventeencounter;
 			<?php echo $hidethelogo; ?>
 
 				<?php twentyseventeen_edit_link( get_the_ID() ); ?>
-				<?php the_custom_logo(); ?>
+				<?php the_custom_logo(0); ?>
 
 			</header><!-- .entry-header -->
 <?php } ?>
