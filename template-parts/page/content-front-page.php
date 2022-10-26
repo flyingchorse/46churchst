@@ -29,7 +29,7 @@
 		<div class="wrap">
 			<header class="entry-header welcome">
 				
-				<?php the_custom_logo(1); ?>
+				<?php the_custom_logo(); ?>
 
 				<?php twentyseventeen_edit_link( get_the_ID() ); ?>
 
