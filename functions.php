@@ -66,7 +66,7 @@ function siteBrand($html)
   // Wrap the site name in an H1 if on home, in a paragraph tag if not.
   is_front_page() ? $title = '<h1>' . $site . '</h1>' : $title = '<p>' . $site . '</p>';
   // Grab the home URL
-  $home = esc_url(home_url('/'));
+  $home = esc_url(get_site_url(1));
   // Class for the link
   $class = 'custom-logo-link';
   // Set anchor content to $title
