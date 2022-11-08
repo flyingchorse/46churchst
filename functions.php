@@ -64,7 +64,7 @@ function siteBrand($html)
   // grab the site name as set in customizer options
   $site = get_bloginfo('name');
   // Wrap the site name in an H1 if on home, in a paragraph tag if not.
-  is_front_page() ? $title = '<h1>' . $site . '</h1>' : $title = '<p>' . $site . '</p>';
+  
   // Grab the home URL
   $home = esc_url(get_site_url(1));
   // Class for the link
@@ -81,7 +81,6 @@ function siteBrand($html)
     // we have a logo, so let's update the $content variable
     $content = $logo;
     // include the site name markup, hidden with screen reader friendly styles
-    $content .= '<span class="sr-only">' . $title . '</span>';
   }
   // construct the final html
   $html = sprintf('<a href="%1$s" class="%2$s" rel="home" itemprop="url">%3$s</a>', $home, $class, $content);
