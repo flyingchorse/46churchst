@@ -125,7 +125,7 @@ function siteBrand($html)
 
 			$html = sprintf(
 				'<a href="%1$s" class="custom-logo-link" rel="home"%2$s>%3$s</a>',
-				esc_url( home_url( '/' ) ),
+				esc_url( get_site_url(1,'/') ),
 				$aria_current,
 				$image
 			);
