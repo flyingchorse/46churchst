@@ -66,7 +66,7 @@ function siteBrand($html)
   // Wrap the site name in an H1 if on home, in a paragraph tag if not.
   
   // Grab the home URL
-  $home = esc_url(get_site_url(1));
+  $home = esc_url(get_site_url(1,'/'));
   // Class for the link
   $class = 'custom-logo-link';
   // Set anchor content to $title
@@ -83,7 +83,7 @@ function siteBrand($html)
     // include the site name markup, hidden with screen reader friendly styles
   }
   // construct the final html
-  $html = sprintf('<a href="%1$s" class="%2$s" rel="home" itemprop="url">%3$s</a>', $home, $class, $content);
+  $html = sprintf('<a href="%1$s" class="%2$s" rel="home">%3$s</a>', $home, $class, $content);
 
   // return the result to the front end
   return $html;
