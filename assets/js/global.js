@@ -207,6 +207,10 @@
 			});
 			
 					$navMenuScrollDown.click( function( e ) {
+						if ($(this).parent().hasClass('no-scroll')) {
+						
+							return;
+							} else {
 					  // grab target URL
 					  var url = $(this).attr("href");
 					  // get # position
@@ -228,6 +232,7 @@
 					    duration: 800,
 					    offset: { top: menuTop - navigationOuterHeight }
 					  });
+					}
 					});
 		}
 
