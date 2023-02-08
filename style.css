@@ -4,7 +4,7 @@
  Author: David Griffin
  Author URI: digidolmedia.com
  Template: twentyseventeen
- Version: 17.48
+ Version: 17.49
  */
  
 
@@ -113,11 +113,11 @@ opacity: 0.5;
 }
 .has-header-image.twentyseventeen-front-page .custom-header {
 	
-	height: 200px;
+	height: 350px;
 }
 
 .has-header-image .custom-header-media img {
-	height: auto;
+	height: 350px;
 	max-width: unset;
 	min-height: unset;
 
