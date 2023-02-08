@@ -113,11 +113,11 @@ opacity: 0.5;
 }
 .has-header-image.twentyseventeen-front-page .custom-header {
 	
-	height: 350px;
+	height: 350px !important;
 }
 
 .has-header-image .custom-header-media img {
-	height: 350px;
+	height: 350px !important;
 	max-width: unset;
 	min-height: unset;
 
